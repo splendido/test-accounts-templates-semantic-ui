@@ -1,0 +1,22 @@
+<template name="profile">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">User vCard (might be blank when logged in with a social account...)</h3>
+    </div>
+    <div class="panel-body">
+      {{#if currentUser}}
+      <address>
+        {{#if name}}
+          <strong>{{name}}</strong><br>
+        {{/if}}
+        <a href="mailto:#">{{email}}</a><br>
+        {{#if phone}}
+          <abbr title="Phone">P:</abbr> {{phone}}
+        {{/if}}
+      </address>
+      {{else}}
+        <p>Not logged-in!</p>
+      {{/if}}
+    </div>
+  </div>
+</template>

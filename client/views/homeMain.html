@@ -1,0 +1,19 @@
+<template name="homeMain">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <div class="page-header">
+          <h1>accounts-templates <small>styled for <a href="http://getbootstrap.com/">Twitter Bootstrap</a></small></h1>
+        </div>
+          {{#unless currentUser}}
+            {{> options}}
+          {{else}}
+            {{> profile}}
+          {{/unless}}
+      </div>
+      <div id="signinFormDiv" class="col-sm-12 col-md-4 well">
+        {{> signinForm}}
+      </div>
+    </div>
+  </div>
+</template>

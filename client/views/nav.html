@@ -1,0 +1,24 @@
+<template name="nav">
+  <div class="ui fixed main menu">
+    <div class="header item">accounts-templates-bootstrap</div>
+    <a class="item" href="/">Home</a>
+    <a class="item" href="/full">Full Page</a>
+    <a class="item" href="/about">About</a>
+    <a class="item" href="/profile">Profile</a>
+    <a class="item" href="/loginNeeded">Private Stuff</a>
+    <div class="right menu">
+      <div class="text item">
+        View on <a href="https://github.com/splendido/test-accounts-templates-semantic-ui">GitHub</a> or <a href="https://atmospherejs.com/package/accounts-templates-semantic-ui">Atmosphere</a>
+      </div>
+      <div class="ui dropdown item" id="lang-dropdown">
+        {{currLang}} <i class="dropdown icon"></i>
+        <div class="menu">
+          {{#each languages}}
+            <a class="item setlang" id="lang-{{this}}">{{uppercase this}}</a>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+

@@ -1,0 +1,11 @@
+<template name="masterLayout">
+  {{> yield region='nav'}}
+
+  <div class="container">
+  	{{> accountsMeld}}
+    {{> yield}}
+  </div>
+
+  {{> yield region='footer'}}
+</template>
+

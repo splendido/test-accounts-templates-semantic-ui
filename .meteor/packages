@@ -1,0 +1,18 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+accounts-facebook
+accounts-github
+accounts-google
+accounts-linkedin
+accounts-meld
+accounts-meld-client-bootstrap
+accounts-password
+accounts-templates-semantic-ui
+fast-render
+semantic-ui
+standard-app-packages
+fontawesome4
+less
