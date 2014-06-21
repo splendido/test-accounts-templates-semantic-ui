@@ -2,9 +2,7 @@
   "packages": {
     "accounts-linkedin": {},
     "fast-render": {},
-    "accounts-meld-client-bootstrap": {},
-    "accounts-meld": {},
     "semantic-ui": {},
-    "fontawesome4": {}
+    "accounts-templates-semantic-ui": {}
   }
 }

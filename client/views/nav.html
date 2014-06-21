@@ -1,6 +1,6 @@
 <template name="nav">
-  <div class="ui fixed main menu">
-    <div class="header item">accounts-templates-bootstrap</div>
+  <div class="ui fixed transparent inverted main menu">
+    <div class="header item">accounts-templates-semantic-ui</div>
     <a class="item" href="/">Home</a>
     <a class="item" href="/full">Full Page</a>
     <a class="item" href="/about">About</a>
@@ -8,8 +8,11 @@
     <a class="item" href="/loginNeeded">Private Stuff</a>
     <div class="right menu">
       <div class="text item">
-        View on <a href="https://github.com/splendido/test-accounts-templates-semantic-ui">GitHub</a> or <a href="https://atmospherejs.com/package/accounts-templates-semantic-ui">Atmosphere</a>
+        View on <a href="https://atmospherejs.com/package/accounts-templates-semantic-ui">Atmosphere</a>
       </div>
+      <a id="github-popup" class="popup icon github item" data-content="View project on Github" href="https://github.com/splendido/test-accounts-templates-semantic-ui">
+        <i class="icon github"></i>
+      </a>
       <div class="ui dropdown item" id="lang-dropdown">
         {{currLang}} <i class="dropdown icon"></i>
         <div class="menu">

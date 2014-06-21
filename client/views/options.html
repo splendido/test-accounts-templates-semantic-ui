@@ -1,36 +1,35 @@
 <template name="options">
   <div>
-    <h2>Lets play with the configuration options!</h2>
-    <div class="alert alert-warning">Note: here I'm playing with UI.render and UI.insert to update the signinForm template when configuration options are modified. Acually there is no reactivity involved and the server-side configuration object remains unchanged!</div>
-    <form role="form" class="well">
+    <h3>Lets play with the configuration options!</h3>
+    <div class="ui yellow message">
+    Note: here I'm playing with UI.render and UI.insert to update the signinForm template when configuration options are modified. Acually there is no reactivity involved and the server-side configuration object remains unchanged!
+    </div>
+    <div role="form" class="ui form message">
       {{#each options}}
         {{> option}}
       {{/each}}
-    </form>
-    <div class="alert alert-warning">
-      Note: having feedback without labels shows some problems with icon vertical alignment (seems a bug in v3.1, see
-      <a href="https://github.com/twbs/bootstrap/issues/12873">here</a>)
     </div>
+  </div>
+  <div class="ui red message">
+      Note: formValidationFeedback has no effect for accounts-templates-semantic-ui
   </div>
 
   {{#if signup}}
-    <div class="alert alert-success">
+    <div class="ui yellow message">
       Sign-up fiels can be easily customized with just a few lines: lets have a look at the 
       <a href="https://github.com/splendido/test-accounts-templates-bootstrap/blob/master/shared/config/ATConfig.js">configuration file</a>.
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Validation Information</h3>
-      </div>
-      <div class="panel-body">
-        <p>Allowed telephone number formats:</p>
-        <ul>
-          <li>(123) 456-7890</li>
-          <li>123-456-7890</li>
-          <li>123.456.7890</li>
-          <li>1234567890</li>
-        </ul>
-      </div>
+    <div class="ui top attached secondary segment">
+      <h3>Validation Information</h3>
+    </div>
+    <div class="ui bottom attached segment">
+      <p>Allowed telephone number formats:</p>
+      <ul>
+        <li>(123) 456-7890</li>
+        <li>123-456-7890</li>
+        <li>123.456.7890</li>
+        <li>1234567890</li>
+      </ul>
     </div>
   {{/if}}
 

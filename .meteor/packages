@@ -7,12 +7,9 @@ accounts-facebook
 accounts-github
 accounts-google
 accounts-linkedin
-accounts-meld
-accounts-meld-client-bootstrap
 accounts-password
 accounts-templates-semantic-ui
 fast-render
 semantic-ui
 standard-app-packages
-fontawesome4
 less

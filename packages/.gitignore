@@ -1,14 +1,9 @@
-/less-bootstrap-3
-/less-fontawesome-4
-/accounts-templates-bootstrap
 /accounts-linkedin
 /fast-render
-/accounts-meld-client-bootstrap
-/accounts-meld
-/accounts-templates-core
+/semantic-ui
+/accounts-templates-semantic-ui
 /linkedin
+/accounts-templates-core
 /accounts-t9n
 /iron-router
 /blaze-layout
-/semantic-ui
-/fontawesome4

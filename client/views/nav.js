@@ -1,5 +1,6 @@
 Template.nav.rendered = function(){
     $('#lang-dropdown').dropdown();
+    $('#github-popup').popup();
     setActiveLinks();
 };
 

@@ -40,7 +40,7 @@ AccountsTemplates.configure({
     showPlaceholders: true,
     displayFormLabels: true,
     continuousValidation: true,
-    showAddRemoveServices: true,
+    showAddRemoveServices: false,
 
     postSignUpRoutePath: '/profile',
     //signInRoutePath: '/signin',
