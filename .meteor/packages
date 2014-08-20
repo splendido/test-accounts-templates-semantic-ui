@@ -8,7 +8,7 @@ accounts-google
 accounts-linkedin
 accounts-password
 accounts-templates-semantic-ui
-fast-render
 semantic-ui
 standard-app-packages
 less
+iron-router

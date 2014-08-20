@@ -1,8 +1,7 @@
 {
   "packages": {
     "accounts-linkedin": {},
-    "fast-render": {},
     "semantic-ui": {},
-    "accounts-templates-semantic-ui": {}
+    "accounts-templates-semantic-ui": "0.0.13"
   }
 }

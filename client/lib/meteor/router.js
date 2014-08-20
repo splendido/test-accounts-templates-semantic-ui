@@ -24,7 +24,7 @@ Router.map(function() {
         path: '/',
         template: 'homeMain',
         onBeforeAction: function(){
-            AccountsTemplates.setState('sgin');
+            AccountsTemplates.setState('signIn');
         }
     });
 
@@ -32,7 +32,7 @@ Router.map(function() {
         path: '/full',
         template: 'fullPage',
         onBeforeAction: function(){
-            AccountsTemplates.setState('sgin');
+            AccountsTemplates.setState('signIn');
         }
     });
 
