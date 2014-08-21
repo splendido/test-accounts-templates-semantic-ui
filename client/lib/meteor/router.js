@@ -1,11 +1,7 @@
 Router.configure({
     notFoundTemplate: 'pageNotFound',
     layoutTemplate: 'masterLayout',
-    loadingTemplate: 'loading',
     yieldTemplates: {
-        aside: {
-            to: 'aside'
-        },
         nav: {
             to: 'nav'
         },
@@ -25,6 +21,7 @@ Router.map(function() {
         template: 'homeMain',
         onBeforeAction: function(){
             AccountsTemplates.setState('signIn');
+            AccountsTemplates.clearFieldErrors();
         }
     });
 
@@ -33,6 +30,7 @@ Router.map(function() {
         template: 'fullPage',
         onBeforeAction: function(){
             AccountsTemplates.setState('signIn');
+            AccountsTemplates.clearFieldErrors();
         }
     });
 
